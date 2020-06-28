@@ -17,7 +17,6 @@ h1 {
   background-color: hsla(0, 0%, 0%, 0.05);
   position: relative;
   cursor: pointer;
-
   border-radius: 15px;
 }
 
@@ -33,4 +32,5 @@ h1 {
   height: 2rem;
   width: 2rem;
   border-radius: 100px;
+  position: absolute;
 }

@@ -1,11 +1,5 @@
-1. spring sliders
-   1. spring config
-2 scale down button
-2. enter / exit animations: collapse component https://codesandbox.io/embed/lp80n9z7v9
-4. get balls to follow main ball (stagger)
+A few react-spring tasks for a workshop at Stash.
 
+Later tasks build on earlier ones, so please complete them in order.
 
-## Tweening with springs
-## Reacting to user input
-## Enter & exit animations
-## Staggering
+It's suggested to view the README.md files in a markdown interpreter in order to not get spoiled by seeing hints before you need them.

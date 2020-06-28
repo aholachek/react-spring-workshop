@@ -2,7 +2,9 @@
 
 ## Main Task:
 
-Every time you click the grey container element, animate the ball to have a random combination of color, scale, x and y variables.
+Every time you click the container element, animate the ball to have a random combination of color, scale, x and y variables. 
+
+![example](./ball-example.gif)
 
 ## Follow up tasks:
 
