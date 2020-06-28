@@ -23,7 +23,7 @@ const AnimatingWithSprings = () => {
   // TODO: initiate spring hook here
   return (
     <>
-      <h1>Lesson 1: Spring basics</h1>
+      <h1>Lesson One: Spring basics</h1>
       <div
         className="container"
         // TODO: add an event listener here that calls generateRandomAppearanceVals()

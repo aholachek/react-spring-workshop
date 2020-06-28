@@ -21,7 +21,7 @@ const StaggeringSprings = () => {
 
   return (
     <>
-      <h1>Lesson 3: Staggering Springs</h1>
+      <h1>Lesson Two: Staggering Springs</h1>
       <div
         className="container"
         onClick={(e) => {

@@ -9,11 +9,11 @@ import LessonThree from './3-enter-and-exit'
 const routes = [
   {
     component: LessonOne,
-    name: 'Animating With Springs',
+    name: 'Lesson One: Animating With Springs',
   },
   {
     component: LessonTwo,
-    name: 'Staggering Springs',
+    name: 'Lesson Two: Staggering Springs',
   },
   // {
   //   component: LessonThree,
