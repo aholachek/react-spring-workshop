@@ -1,26 +1,53 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import 'spectre.css'
+import './index.css'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import LessonOne from './1-animating-with-springs'
+import LessonTwo from './2-enter-and-exit'
+import LessonThree from './3-staggering-springs'
+
+const routes = [
+  {
+    component: LessonOne,
+    name: 'Animating With Springs',
+  },
+  {
+    component: LessonTwo,
+    name: 'Enter and Exit',
+  },
+  {
+    component: LessonThree,
+    name: 'Staggering Springs',
+  },
+]
+
+const nameToRoute = (str) => `/${str.toLowerCase().replace(/\s/g, '-')}`
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            {routes.map((r) => (
+              <li key={r.name}>
+                <Link to={nameToRoute(r.name)}>{r.name}</Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
+        {routes.map((r) => {
+          const Component = r.component
+          return (
+            <Route path={nameToRoute(r.name)} key={r.name}>
+              <Component />
+            </Route>
+          )
+        })}
+      </div>
+    </Router>
+  )
 }
 
-export default App;
+export default App
