@@ -1,12 +1,11 @@
 A few react-spring tasks for a workshop at Stash. Still a WIP!
 
-It's suggested to view the README.md files for each lesson in a markdown interpreter.
-
 ## How to get started
 
 1. Run `yarn` and `yarn start`
-2. Navigate to src/1-animating-with-springs and read the README.md. Complete the tasks specified in the README by editing the index.js file.
-3. Later tasks build on earlier ones, so please complete them in order.
+2. Navigate to src/1-animating-with-springs and read the README.md. It's suggested to view the README.md files for each lesson in a markdown interpreter.
+3. Complete the tasks specified in the README by editing the index.js file.
+4. Later tasks build on earlier ones, so please complete them in order.
 
 ## Lessons
 
