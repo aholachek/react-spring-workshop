@@ -20,6 +20,7 @@ const generateRandomAppearanceVals = () => {
 }
 
 const AnimatingWithSprings = () => {
+  // TODO: initiate spring hook here
   return (
     <>
       <h1>Lesson 1: Spring basics</h1>
