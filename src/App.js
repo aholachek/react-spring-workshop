@@ -3,8 +3,8 @@ import 'spectre.css'
 import './index.css'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import LessonOne from './1-animating-with-springs'
-import LessonTwo from './2-enter-and-exit'
-import LessonThree from './3-staggering-springs'
+import LessonTwo from './2-staggering-springs'
+import LessonThree from './3-enter-and-exit'
 
 const routes = [
   {
@@ -13,12 +13,12 @@ const routes = [
   },
   {
     component: LessonTwo,
-    name: 'Enter and Exit',
-  },
-  {
-    component: LessonThree,
     name: 'Staggering Springs',
   },
+  // {
+  //   component: LessonThree,
+  //   name: 'Enter and Exit',
+  // },
 ]
 
 const nameToRoute = (str) => `/${str.toLowerCase().replace(/\s/g, '-')}`
