@@ -1,4 +1,4 @@
-A few react-spring tasks for a workshop at Stash. Still a WIP!
+# Interactive react-spring workshop (WIP)
 
 ## How to get started
 
