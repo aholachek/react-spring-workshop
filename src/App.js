@@ -2,14 +2,19 @@ import React from 'react'
 import 'spectre.css'
 import './index.css'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-import LessonOne from './1-animating-with-springs'
-import LessonTwo from './2-staggering-springs'
-import LessonThree from './3-enter-and-exit'
+import Intro from './intro'
+import LessonOne from './lessons/1-animating-with-springs'
+import LessonTwo from './lessons/2-staggering-springs'
+import LessonThree from './lessons/3-enter-and-exit'
 
 const routes = [
   {
+    component: Intro,
+    name: 'Intro: Simplest Possible Spring',
+  },
+  {
     component: LessonOne,
-    name: 'Lesson One: Animating With Springs',
+    name: 'Lesson One: Spring Basics',
   },
   {
     component: LessonTwo,
