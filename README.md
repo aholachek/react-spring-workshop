@@ -11,8 +11,8 @@
 
 ### 1. Spring basics
 
-![example](src/1-animating-with-springs/ball-example.gif)
+![example](src/lessons/1-animating-with-springs/ball-example.gif)
 
 ### 2. Staggered springs
 
-![example](src/2-staggering-springs/stagger.gif)
+![example](src/lessons/2-staggering-springs/stagger.gif)
