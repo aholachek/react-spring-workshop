@@ -1,4 +1,4 @@
-Take a look at this very simple react-spring example to get a feel for the library.
+Take a look at the code for this very simple react-spring example to get a feel for the library.
 
 ## Things to note in the example
 
