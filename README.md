@@ -1,5 +1,12 @@
 # react-spring workshop: learn by building animations
 
+## Goals
+
+After completing this 1-2hr workshop, you will:
+
+1. Be familiar with the most common patterns that will make you a proficient react-spring user
+2. Have developed your ability to break an animation down into component pieces and implement it step-by-step
+
 ## How to get started
 
 1. Run `yarn` and `yarn start`
