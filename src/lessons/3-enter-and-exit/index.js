@@ -1,5 +1,6 @@
 import React from 'react'
 // TODO: import relevant react-spring stuff here
+// confused? read https://www.react-spring.io/docs/hooks/use-transition before continuing
 
 const randomFilter = (arr) => arr.filter(() => Math.random() > 0.5)
 

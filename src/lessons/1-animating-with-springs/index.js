@@ -1,5 +1,6 @@
 import React from 'react'
 // TODO: import relevant react-spring stuff here
+// confused? read https://www.react-spring.io/docs/hooks/use-spring before continuing
 
 const colors = ['#c70039', '#0e9aa7', '#5c2a9d']
 const scales = [0.5, 2, 1.5]
@@ -27,7 +28,7 @@ const AnimatingWithSprings = () => {
       <h1>Lesson One: Spring basics</h1>
       <div
         className="container"
-        // TODO: add an event listener here that calls generateRandomAppearanceVals()
+        // TODO: add an onClick listener here that calls generateRandomAppearanceVals()
         // and sets them in the spring
       >
         <div
