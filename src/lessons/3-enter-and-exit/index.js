@@ -34,6 +34,8 @@ const EnterAndExit = () => {
         onClick={() => setVisibleItems(randomFilter(items))}
       >
         {/* TODO: render visibleItems making sure to transition their opacity as they appear and disappear */}
+
+        
       </div>
     </>
   )
