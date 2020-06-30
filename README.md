@@ -56,6 +56,7 @@ Which animate between 2 values, a classic use is adding a fade-in effect for new
 }
 
 .some-element {
+  opacity: 0;
   animation: fadeIn 0.25s forwards;
 }
 ```
