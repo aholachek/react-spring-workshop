@@ -27,7 +27,7 @@
 
 First, make sure you understand how to use:
 
-### CSS transitions
+#### CSS transitions
 
 Which simply transition between 2 pre-existing values
 
