@@ -1,4 +1,5 @@
 import React from 'react'
+// TODO: import relevant react-spring stuff here
 
 const colors = ['#c70039', '#0e9aa7', '#5c2a9d']
 const scales = [0.5, 2, 1.5]
@@ -31,7 +32,7 @@ const AnimatingWithSprings = () => {
       >
         <div
           className="ball"
-          // TODO: how to use the spring vars to animate this ball?
+          // TODO: Use the spring vars to animate this ball
         />
       </div>
     </>

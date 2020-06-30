@@ -20,10 +20,10 @@ const routes = [
     component: LessonTwo,
     name: 'Lesson Two: Staggering Springs',
   },
-  // {
-  //   component: LessonThree,
-  //   name: 'Enter and Exit',
-  // },
+  {
+    component: LessonThree,
+    name: 'Lesson Three: Enter and Exit',
+  },
 ]
 
 const nameToRoute = (str) => `/${str.toLowerCase().replace(/\s/g, '-')}`

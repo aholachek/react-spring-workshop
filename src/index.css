@@ -34,4 +34,8 @@ h1 {
   border-radius: 100px;
   position: absolute;
   background-color: #c70039;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

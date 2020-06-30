@@ -6,6 +6,8 @@ Every time you click the container element, animate the ball to have a random co
 
 ![example](./ball-example.gif)
 
+You can use the `TODO` comments in `index.js` to guide your work.
+
 ## Follow up tasks:
 
 - Make the spring have a `wobbly` config instead of the default one.
