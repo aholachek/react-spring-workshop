@@ -4,7 +4,7 @@
 
 1. Run `yarn` and `yarn start`
 2. Navigate to `src/1-animating-with-springs/README.md`. (It's suggested to view the README.md files for each lesson in a markdown interpreter for a better experience and to avoid getting potentially spoiled by seeing hints before you need them.)
-3. Complete the tasks specified in the README by editing the index.js file.
+3. Complete the tasks specified in the README by editing the index.js file. You will only need to write code in places specified by the `TODO` placeholder comments.
 4. Later tasks build on earlier ones, so please complete them in order.
 
 ## Lessons
