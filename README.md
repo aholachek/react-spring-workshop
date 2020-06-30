@@ -70,7 +70,7 @@ Which animate between 2 values, a classic use is adding a fade-in effect for new
 
 CSS has a lot of advantages like potential performance benefits when used correctly, ease of use, and a lack of state that causes animations to get out of sync. But there are reasons you would waant to look towards using JS instead.
 
-### Some questions to ask to see if it's worth to JS:
+### Some questions to ask to see if it's worth it to move to JS:
 
 - Does the animation respond to user input more complex than a hover or a click (e.g. drag, press, etc)? JS is often better for this.
 - Do you want the more expressive look of springs instead of hardcoded easings (like `ease-in`)?
