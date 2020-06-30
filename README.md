@@ -43,7 +43,7 @@ Which simply transition between 2 pre-existing values
 
 #### CSS keyframes
 
-Which nimate between 2 values, a classic use is adding a fade-in effect for newly mounted elements:
+Which animate between 2 values, a classic use is adding a fade-in effect for newly mounted elements:
 
 ```css
 @keyframes fadeIn {
