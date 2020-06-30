@@ -2,6 +2,7 @@ import React from 'react'
 // TODO: import relevant react-spring stuff here
 // confused? read https://www.react-spring.io/docs/hooks/use-transition before continuing
 
+
 const randomFilter = (arr) => arr.filter(() => Math.random() > 0.5)
 
 const colors = ['#c70039', '#0e9aa7', '#5c2a9d']
